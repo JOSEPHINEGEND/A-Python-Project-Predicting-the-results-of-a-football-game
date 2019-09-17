@@ -29,7 +29,7 @@
 
 * Google colab/jupyter notebook
 * Python basics
-* Python libraries
+* Python libraries (Pandas, Numpy, Seaborn, Matplotlib, Scikit learn)
 * Github
 
 ## Known Bugs
