@@ -13,16 +13,36 @@
 
 ## Experimental Design
 
-- Perform your EDA
+1.1.4 Experimental design taken
+Perform your EDA
+
 - Perform any necessary feature engineering
+
 - Check of multicollinearity
+
 - Building a model
-    * Polynomial
-    * Logistic
+
+- Approach 1: Polynomial regression model
+
+      * Model 1: Predict how many goals the home team scores
+      * Model 2: Predict how many goals the away team scores
+   
+- Approach 2: Logistic regression model
+
+        - Figure out from the home team’s perspective if the game is a Win, Lose or Draw (W, L, D)
+   
+- Approach 3: Ridge, Lasso, & Elastic Net Regression models
+
+        * Predict the rank of the teams and compare the models.
+
 - Cross-validate the model
+
 - Compute RMSE
+
 - Create residual plots for the model
+
 - Assess Heteroscedasticity using Bartlett’s test
+
 - Challenge the solution.
 
 ## Setup/Installation Requirements
